@@ -16,7 +16,7 @@ const secondYearVideos = [
      duration: "30:05",
      videoUrl: "https://www.youtube.com/watch?v=P3VBFg6kclE",
      thumbnail: "صوره.png",
-     description: "الوصف"
+     description: "الوصف",
   }
 
 
