@@ -14,7 +14,7 @@ const secondYearVideos = [
      {
      title: "عنوان الفيديو",
      duration: "30:05",
-     videoUrl: "(https://www.youtube.com/watch?v=P3VBFg6kclE)",
+     videoUrl: "https://www.youtube.com/watch?v=P3VBFg6kclE",
      thumbnail: "صوره.png",
      description: "الوصف"
   }
@@ -29,18 +29,7 @@ const thirdYearVideos = [
 ];
 
 // ============================================
-// دوال مساعدة لإضافة الفيديوهات بسهولة
-// ============================================
-
-/**
- * دالة لإضافة فيديو جديد للصف الأول الثانوي
- * @param {Object} video - معلومات الفيديو
- * @param {string} video.title - عنوان الفيديو
- * @param {string} video.duration - مدة الفيديو
- * @param {string} video.videoUrl - رابط الفيديو (YouTube embed link)
- * @param {string} video.thumbnail - رابط صورة الغلاف (اختياري)
- * @param {string} video.description - وصف الفيديو
- */
+// دوال مساعدة لإضافة الفيديوهات 
 function addFirstYearVideo(video) {
   firstYearVideos.push(video);
   // إذا كانت صفحة الفيديوهات مفتوحة والصف الأول مختار، قم بتحديث العرض
